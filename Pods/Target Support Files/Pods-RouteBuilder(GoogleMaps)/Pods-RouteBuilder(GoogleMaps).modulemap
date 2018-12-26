@@ -1,0 +1,6 @@
+framework module Pods_RouteBuilder_GoogleMaps_ {
+  umbrella header "Pods-RouteBuilder(GoogleMaps)-umbrella.h"
+
+  export *
+  module * { export * }
+}
