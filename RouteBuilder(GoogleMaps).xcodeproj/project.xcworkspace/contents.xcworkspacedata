@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RouteBuilder(GoogleMaps).xcodeproj">
+      location = "self:/Users/ruslan/Desktop/RouteBuilder-GoogleMaps-/RouteBuilder(GoogleMaps).xcodeproj">
    </FileRef>
 </Workspace>

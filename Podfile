@@ -6,6 +6,8 @@ target 'RouteBuilder(GoogleMaps)' do
   use_frameworks!
 
   # Pods for RouteBuilder(GoogleMaps)
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
 end

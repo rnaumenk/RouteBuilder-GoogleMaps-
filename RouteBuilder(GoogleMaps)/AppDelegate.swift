@@ -2,15 +2,14 @@
 //  AppDelegate.swift
 //  RouteBuilder(GoogleMaps)
 //
-//  Created by Ruslan on 12/26/18.
-//  Copyright © 2018 Ruslan Naumenko. All rights reserved.
+//  Created by Ruslan NAUMENKO on 1/27/19.
+//  Copyright © 2019 Ruslan NAUMENKO. All rights reserved.
 //
 
 import UIKit
-import GoogleMaps
 import GooglePlaces
-
-let apiKey = "AIzaSyAOelH9v0r__Wh_sSw9PaD5Di6V9rNW5vQ"
+import GoogleMaps
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,10 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        GMSServices.provideAPIKey(apiKey)
-        GMSPlacesClient.provideAPIKey(apiKey)
-        
         // Override point for customization after application launch.
+        
+        GMSServices.provideAPIKey(APIKey.stringValue)
+        GMSPlacesClient.provideAPIKey(APIKey.stringValue)
+        
         return true
     }
 
